@@ -5,6 +5,7 @@ import {
   MatIconModule,
   MatListModule,
   MatSidenavModule,
+  MatTabsModule,
   MatToolbarModule
 } from "@angular/material";
 import {LayoutModule} from "@angular/cdk/layout";
@@ -19,6 +20,7 @@ import {LayoutModule} from "@angular/cdk/layout";
     MatSidenavModule,
     MatIconModule,
     MatListModule,
+    MatTabsModule,
   ],
   exports: [
     MatButtonModule,
@@ -28,6 +30,7 @@ import {LayoutModule} from "@angular/cdk/layout";
     MatSidenavModule,
     MatIconModule,
     MatListModule,
+    MatTabsModule,
   ],
 })
 export class CommonMaterialModule {

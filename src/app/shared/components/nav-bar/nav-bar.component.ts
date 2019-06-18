@@ -17,4 +17,19 @@ export class NavBarComponent {
 
   constructor(private breakpointObserver: BreakpointObserver) {}
 
+  private navLinks = [
+    {
+      path: '/home',
+      label: 'Home',
+    },
+    {
+      path: '/artists',
+      label: 'My Artists',
+    },
+    {
+      path: '/events',
+      label: 'My Events',
+    },
+  ]
+
 }
